@@ -1,0 +1,7 @@
+.company-container{
+    justify-content: space-evenly;
+}
+
+.company-container>img{
+    width: 12rem;
+}

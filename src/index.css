@@ -21,14 +21,14 @@ a {
   text-decoration: none;
 }
 .paddings {
-  padding: 8rem;
+  padding: 12rem;
 }
 
 .innerWidth {
   width: 100%;
 }
 
-.flexCenter {
+.flexCenter{
   display: flex;
   row-gap: 2rem;
   justify-content: center;
@@ -54,6 +54,7 @@ a {
   flex-direction: column;
 }
 .flexColStart {
+  /* border: 2px solid brown; */
   display: flex;
   flex-direction: column;
   justify-content: center;
