@@ -5,11 +5,11 @@ import './Header.css'
 const Header = () => {
   return (
     <section className='h-wrapper'>
-          <div className="h-container flexCenter  innerWidth ">
-            <img src={Logo} alt="" width={110}/>
+      <div className="flexCenter  innerWidth h-container  ">
+            <img src={Logo} alt="logo" width={110}/>
 
-            <div className="h-menu flexCenter paddings  ">
-                <ul className='flexCenter '>
+            <div className="h-menu flexCenter paddings">
+                <ul className='flexCenter'>
                     <li>residence</li>
                     <li>our values</li>
                     <li>contact us</li>

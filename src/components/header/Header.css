@@ -1,13 +1,12 @@
 .h-wrapper{
-    /* background:var(--black); */
     color: white;
 }
 
-
-
 .h-container{
-    justify-content: space-around;
+    justify-content: space-between;
     color: var(--secondary);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     
 }
 
@@ -17,7 +16,7 @@
     text-transform: capitalize;
 }
 
-.h-menu ul{
+.h-menu ul>li{
     cursor: pointer;
 }
 

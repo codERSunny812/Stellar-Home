@@ -20,12 +20,12 @@ a {
   color: inherit;
   text-decoration: none;
 }
-.paddings {
-  padding: 12rem;
+.paddings{
+  padding: 1.5rem;
 }
 
 .innerWidth {
-  width: 100%;
+  width:100%;
 }
 
 .flexCenter{
@@ -54,7 +54,6 @@ a {
   flex-direction: column;
 }
 .flexColStart {
-  /* border: 2px solid brown; */
   display: flex;
   flex-direction: column;
   justify-content: center;
