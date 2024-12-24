@@ -1,4 +1,3 @@
-import React from 'react'
 import contactImage from '../../assets/contact.jpg'
 import './Contact.css'
 import {MdCall} from 'react-icons/md'
@@ -117,7 +116,7 @@ const Contact = () => {
           </div>
 
         </div>
-
+{/* right */}
         <div className="contact-right">
           <div className="image-container">
             <img src={contactImage} alt="" />
