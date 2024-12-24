@@ -70,3 +70,16 @@
     font-size: 1.3rem;
 }
 
+
+@media (max-width:1024px) {
+    .value-container{
+        flex-direction: column;
+    }
+
+
+    @media (max-width:768px) {
+        .accordian-button .primaryText{
+            font-size: 0.8rem;
+        }
+    }
+}

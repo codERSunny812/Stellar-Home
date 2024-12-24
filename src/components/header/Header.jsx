@@ -1,28 +1,43 @@
-
-import Logo from '../../assets/site.png'
-import './Header.css'
+import Logo from '../../assets/site.png';
+import { GiHamburgerMenu } from "react-icons/gi";
+import './Header.css';
+import { useState } from 'react';
+import OutsideClickHandler from 'react-outside-click-handler';
 
 const Header = () => {
-  return (
-    <section className='h-wrapper'>
-      <div className="flexCenter  innerWidth h-container  ">
-            <img src={Logo} alt="logo" width={110}/>
+  const [showMenu, setShowMenu] = useState(false);
 
-            <div className="h-menu flexCenter paddings">
-                <ul className='flexCenter'>
-                    <li>residence</li>
-                    <li>our values</li>
-                    <li>contact us</li>
-                    <li>get started</li>
-                </ul>
-                <button type="button" className='button'>
-                    contact
-                </button>
-            </div>
+  const toggleMenu = () => setShowMenu((prev) => !prev);
+
+  return (
+    <section className="h-wrapper">
+      <div className="flexCenter innerWidth h-container">
+        <img src={Logo} alt="logo" width={110} />
+
+        <OutsideClickHandler
+        onOutsideClick={()=> setShowMenu(false)}>
+
+        <div className={`h-menu ${showMenu ? 'open' : ''}`}>
+          <ul className="flexCenter">
+            <li>residence</li>
+            <li>our values</li>
+            <li>contact us</li>
+            <li>get started</li>
+            <button type="button" className="button">
+              contact
+            </button>
+          </ul>
         </div>
 
-    </section>
-  )
-}
+        </OutsideClickHandler>
 
-export default Header
+
+        <div className="menu-icon" onClick={toggleMenu}>
+          <GiHamburgerMenu size={35} />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Header;

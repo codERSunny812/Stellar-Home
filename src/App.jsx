@@ -18,8 +18,9 @@ function App() {
           <Header />
           <Hero />
     </div>
-    <Company/>
+    <Company />
     <Residence/>
+    
     <Value/>
     <Contact/>
     <GetStarted/>

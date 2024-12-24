@@ -14,4 +14,24 @@
     gap: 1.5rem;
     margin-top: 1.5rem;
     font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+@media (max-width:768px) {
+    .f-container{
+        justify-content: center;
+    }
+
+    .f-container >div{
+         align-items: center !important;
+         text-align: center;
+    }
+
+    .f-menu{
+        /* border: 2px solid blueviolet; */
+        width: 100%;
+        gap: 1rem;
+        text-transform: capitalize;
+    }
 }

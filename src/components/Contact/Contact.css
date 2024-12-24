@@ -64,3 +64,27 @@ flex: 1;
     color: white;
     scale: 0.8;
 }
+
+@media (max-width:1024px) {
+
+    .contact-container{
+        flex-direction: column;
+    }
+
+    .contact-right{
+        justify-content: center;
+    }
+    .contactmodes{
+        /* border: 2px solid hotpink; */
+        width: 100%;
+        align-items: center;
+    }
+    .row{
+        flex-direction:column;
+        width: 100% ;
+    }
+
+    .mode{
+        width: 100%;
+    }
+}
