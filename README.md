@@ -1,6 +1,7 @@
 # Stellar Home
 
-This Stellar Home is a modern and responsive real estate website built using React. This app provides users with a sleek interface to browse and explore properties for sale or rent. The app's design is clean, user-friendly, and optimized for performance.
+
+A feature-rich real estate website built to showcase property listings, provide detailed property information, and offer user-friendly navigation for seamless browsing. Includes responsive design, advanced search functionality, and an intuitive user interface. Perfect for buyers, sellers, and real estate agencies.
 
 
 ## Features
